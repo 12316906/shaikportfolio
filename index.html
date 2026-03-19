@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Jakeer Hussain | Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Particles & Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-content container">
+            <div class="logo">
+                <a href="#home">Jakeer Hussain</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="theme-toggle" title="Toggle Light/Dark Mode">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="container hero-content">
+            <div class="hero-text reveal">
+                <p class="greeting">Hello, world! I am</p>
+                <h1 class="name">Shaik Jakeer Hussain</h1>
+                <h2 class="title"><span class="typed-field"></span></h2>
+                <p class="bio">Passionate about building scalable cloud architectures, reliable backend systems, and
+                    interactive web experiences. Let's create something amazing!</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="cv-6906(H).pdf" class="btn btn-secondary" download>
+                        Download CV <i class="fa-solid fa-download"></i>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/12316906" target="_blank" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shaik-jakeer-hussain-252426298/" target="_blank"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image reveal" style="transition-delay: 0.2s;">
+                <div class="image-wrapper">
+                    <div class="profile-placeholder">
+                        <img src="images/profile.jpeg" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content reveal">
+                <p>I am a Computer Science student at Lovely Professional University with a strong interest in software
+                    development and
+                    cloud technologies. I have experience in C++, Java, and SQL, along with building responsive web
+                    applications using
+                    HTML, CSS, and JavaScript. I am passionate about Cloud and DevOps, with hands-on exposure
+                    to AWS, Docker, Kubernetes, and GitHub Actions
+                </p>
+                <p>I have worked on projects like a web-based Banker’s Algorithm tool for deadlock detection and an
+                    event management
+                    website.Through my AWS Cloud Architecting training, I have learned to design scalable and reliable
+                    systems.
+                    I am a quick learner, team player, and enjoy solving real-world problems. I aim to grow as a
+                    software engineer
+                    while contributing to impactful and innovative projects.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title reveal">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3><i class="fa-solid fa-code"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span>C++</span>
+                        <span>Java</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal" style="transition-delay: 0.1s;">
+                    <h3><i class="fa-solid fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>AWS (EC2, S3, RDS)</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>GitHub Actions</span>
+                        <span>Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal" style="transition-delay: 0.2s;">
+                    <h3><i class="fa-solid fa-database"></i> Backend & Databases</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>AWS RDS</span>
+                        <span>Database Design (3NF)</span>
+                        <span>Stored Procedures</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal" style="transition-delay: 0.3s;">
+                    <h3><i class="fa-brands fa-html5"></i> Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal" style="transition-delay: 0.4s;">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>MySQL Workbench</span>
+                        <span>VMware</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal" style="transition-delay: 0.5s;">
+                    <h3><i class="fa-solid fa-users"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span>Problem-solving</span>
+                        <span>Team-player</span>
+                        <span>Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title reveal">My Projects</h2>
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal" data-category="frontend backend">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/12316906/os-project-" target="_blank" aria-label="GitHub"><i
+                                        class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Deadlock Prevention Toolkit</h3>
+                        <p class="project-description">Developed an interactive web-based implementation of the Banker's
+                            Algorithm to detect deadlock-safe states, providing real-time safe sequence validation.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal" style="transition-delay: 0.2s;" data-category="frontend">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/12316906/Event-Management-System" target="_blank"
+                                    aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Event Management System</h3>
+                        <p class="project-description">Created a responsive Event Management website featuring Home,
+                            About, Events, and Contact pages with smooth navigation and clear event details.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+
+            <div class="timeline">
+                <!-- Education Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2023 - Present</span>
+                        <h3 class="timeline-title">BTech in Computer Science and Engineering</h3>
+                        <h4 class="timeline-subtitle">Lovely Professional University (Phagwara, Punjab)</h4>
+                        <p class="timeline-text">Pursuing a degree in CSE. Current CGPA: 6.03.</p>
+                    </div>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2022 - Mar 2023</span>
+                        <h3 class="timeline-title">Intermediate (MPC)</h3>
+                        <h4 class="timeline-subtitle">S.R Junior College (Kurnool, AP)</h4>
+                        <p class="timeline-text">Percentage: 77.3%</p>
+                    </div>
+                </div>
+
+                <!-- Education Item 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Apr 2020 - Jun 2021</span>
+                        <h3 class="timeline-title">Matriculation</h3>
+                        <h4 class="timeline-subtitle">S.N.V.V High School (Atmakur, AP)</h4>
+                        <p class="timeline-text">Percentage: 99.0%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Training Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 class="section-title reveal">Training & Certifications</h2>
+
+            <div class="timeline">
+                <!-- Training Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2026</span>
+                        <h3 class="timeline-title">AWS Academy Graduate – Cloud Architecting</h3>
+                        <p class="timeline-text">Gained practical knowledge of the AWS Well-Architected Framework.
+                            Designed fault-tolerant architectures and decoupled systems using VPC, EC2, S3, Auto
+                            Scaling, and Amazon SQS.</p>
+                        <a href="https://drive.google.com/file/d/1Jzm-RS84J6GRNkyUmG8nv0JUpJkHGgRU/view?usp=drive_link"
+                            target="_blank" class="btn btn-secondary"
+                            style="padding: 0.5rem 1rem; font-size: 0.85rem; margin-top: 0.8rem;">View Certificate <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Training Item 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Nov 2025</span>
+                        <h3 class="timeline-title">Responsive Web Design</h3>
+                        <h4 class="timeline-subtitle">freeCodeCamp</h4>
+                        <p class="timeline-text">Certified in building complex, adaptive web layouts using modern UI
+                            techniques and CSS3.</p>
+                        <a href="https://drive.google.com/file/d/12kbCrUVmiqToDPparZFA3iyaa4Ugio8T/view?usp=drive_link"
+                            target="_blank" class="btn btn-secondary"
+                            style="padding: 0.5rem 1rem; font-size: 0.85rem; margin-top: 0.8rem;">View Certificate <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Certification Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2024 & 2025</span>
+                        <h3 class="timeline-title">Master Generative AI & JavaScript Bootcamp</h3>
+                        <p class="timeline-text">Completed a 1-month live JavaScript bootcamp and Master Generative AI &
+                            Generative AI tools program.</p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 0.8rem;">
+                            <a href="https://drive.google.com/file/d/12kbCrUVmiqToDPparZFA3iyaa4Ugio8T/view?usp=drive_link"
+                                target="_blank" class="btn btn-secondary"
+                                style="padding: 0.5rem 1rem; font-size: 0.85rem;">View JS Certificate <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://drive.google.com/file/d/159te0AktXCvQIr2KQoHzURNY6JfeSoua/view?usp=drive_link"
+                                target="_blank" class="btn btn-secondary"
+                                style="padding: 0.5rem 1rem; font-size: 0.85rem;">View Gen AI Certificate <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 2024</span>
+                        <h3 class="timeline-title">Web ka Hackathon (2024)</h3>
+                        <p class="timeline-text">Developed a functional prototype within a 24-hour sprint. Collaborated
+                            to design and present a technical solution to industry professionals.</p>
+                        <a href="https://drive.google.com/file/d/11JmkQT3eLbR0j1FZ65KZhUvd_8gGA-KZ/view?usp=drive_link"
+                            target="_blank" class="btn btn-secondary"
+                            style="padding: 0.5rem 1rem; font-size: 0.85rem; margin-top: 0.8rem;">View Certificate <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Certification Item 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3 class="timeline-title">Cloud Computing / DevOps Certification</h3>
+                        <h4 class="timeline-subtitle">Recognized Online Platform</h4>
+                        <p class="timeline-text">Gained hands-on experience in cloud computing and DevOps practices, including deployment, automation, and system management. Learned to work with modern tools and build scalable applications.</p>
+                        <p class="timeline-text" style="font-size: 0.9em; margin-top: 8px;"><strong>Skills:</strong> Cloud Computing &bull; DevOps &bull; Deployment &bull; Automation &bull; Linux</p>
+                        <a href="https://drive.google.com/file/d/1Zegfw5Kx__zpO9aaRVSWJF1g4zT0Qai3/view"
+                            target="_blank" class="btn btn-secondary"
+                            style="padding: 0.5rem 1rem; font-size: 0.85rem; margin-top: 0.8rem;">View Certificate <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Certification Item 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3 class="timeline-title">Database Management System (DBMS) Certification</h3>
+                        <h4 class="timeline-subtitle">Recognized Online Platform</h4>
+                        <p class="timeline-text">Developed a strong understanding of database concepts, including data modeling, normalization, and SQL queries. Gained hands-on experience in designing and managing relational databases.</p>
+                        <p class="timeline-text" style="font-size: 0.9em; margin-top: 8px;"><strong>Skills:</strong> DBMS &bull; SQL &bull; Data Modeling &bull; Normalization &bull; Database Design</p>
+                        <a href="https://drive.google.com/file/d/1_zsxmpGzvnxc-2-CZsRu_ZBz8ttz_-tI/view"
+                            target="_blank" class="btn btn-secondary"
+                            style="padding: 0.5rem 1rem; font-size: 0.85rem; margin-top: 0.8rem;">View Certificate <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <div class="contact-content reveal">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:shaikjakeerhussain2003@gmail.com">shaikjakeerhussain2003@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Mobile</h3>
+                        <a href="tel:+918639582395">+91-8639582395</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>India</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Shaik Jakeer Hussain. Built with HTML, CSS, & JS.</p>
+            <div class="social-links">
+                <a href="https://github.com/12316906" target="_blank" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shaik-jakeer-hussain-252426298/" target="_blank"
+                    aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
